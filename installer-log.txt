@@ -1,0 +1,168 @@
+********************************************************************************
+* DUPLICATOR-LITE: INSTALL-LOG
+* VERSION: 1.2.20
+* STEP-1 START @ 05:20:25
+* NOTICE: Do NOT post this data to public sites or forums
+********************************************************************************
+PHP VERSION:	7.1.6 | SAPI: apache2handler
+PHP TIME LIMIT:	[0] time limit restriction disabled
+PHP MEMORY:	2048M | SUHOSIN: disabled
+SERVER:		Apache/2.2.32 (Unix) mod_wsgi/3.5 Python/2.7.13 PHP/7.1.6 mod_ssl/2.2.32 OpenSSL/1.0.2j DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.24.0
+DOC ROOT:	/Users/marcorighetto/odrive/PersonalDrive/WEB/wordpress
+DOC ROOT 755:	true
+LOG FILE 644:	true
+REQUEST URL:	http://localhost/installer.php
+--------------------------------------
+ARCHIVE EXTRACTION
+--------------------------------------
+NAME:	20170831_sostenibles_8bf35ed88cfe576e6793170831170447_archive.zip
+SIZE:	69.1MB
+ZIP:	Enabled (ZipArchive Support)
+
+>>> START EXTRACTION:
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 2766
+    [filename] => /Users/marcorighetto/odrive/PersonalDrive/WEB/wordpress/20170831_sostenibles_8bf35ed88cfe576e6793170831170447_archive.zip
+    [comment] => 
+)
+File timestamp is 'Current' mode: 2017-08-31 17:20:29
+<<< EXTRACTION COMPLETE: true
+
+WEB SERVER CONFIGURATION FILE RESET:
+- Backup of .htaccess/web.config made to *.170831172029.orig
+- Reset of .htaccess/web.config files
+
+STEP-1 COMPLETE @ 05:20:29 - RUNTIME: 3.9236 sec.
+
+
+********************************************************************************
+* DUPLICATOR-LITE: INSTALL-LOG
+* STEP-2 START @ 05:21:15
+* NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+--------------------------------------
+DATABASE ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 5.6.35 -- Build Server: 5.5.49
+FILE SIZE:	database.sql (891.39KB) - installer-data.sql (891.39KB)
+TIMEOUT:	5000
+MAXPACK:	4194304
+SQLMODE:	NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[/Users/marcorighetto/odrive/PersonalDrive/WEB/wordpress/installer-data.sql]
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+ERRORS FOUND:	0
+TABLES DROPPED:	12
+QUERIES RAN:	775
+
+wwp_commentmeta: (6)
+wwp_comments: (5)
+wwp_duplicator_packages: (1)
+wwp_links: (0)
+wwp_options: (173)
+wwp_postmeta: (315)
+wwp_posts: (158)
+wwp_smart_maintenance_mode: (0)
+wwp_term_relationships: (24)
+wwp_term_taxonomy: (17)
+wwp_termmeta: (0)
+wwp_terms: (17)
+wwp_usermeta: (40)
+wwp_users: (2)
+
+Removed '45' cache/transient rows
+
+CREATE/INSTALL RUNTIME: 1.4015 sec.
+STEP-2 COMPLETE @ 05:21:16 - RUNTIME: 1.6249 sec.
+
+
+********************************************************************************
+* DUPLICATOR-LITE: INSTALL-LOG
+* STEP-3 START @ 05:21:33
+* NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	utf8
+CHARSET CLIENT:	utf8
+--------------------------------------
+SERIALIZER ENGINE
+[*] scan every column
+[~] scan only text columns
+[^] no searchable columns
+--------------------------------------
+wwp_commentmeta~ (6)
+wwp_comments~ (5)
+wwp_duplicator_packages^ (0)
+wwp_links^ (0)
+wwp_options~ (126)
+wwp_postmeta~ (315)
+wwp_posts~ (158)
+wwp_smart_maintenance_mode^ (0)
+wwp_term_relationships~ (24)
+wwp_term_taxonomy~ (17)
+wwp_termmeta^ (0)
+wwp_terms~ (17)
+wwp_usermeta~ (40)
+wwp_users~ (2)
+--------------------------------------
+Search1:	'/srv/sostenibl.es' 
+Change1:	'/Users/marcorighetto/odrive/PersonalDrive/WEB/wordpress' 
+Search2:	'\/srv\/sostenibl.es' 
+Change2:	'\/Users\/marcorighetto\/odrive\/PersonalDrive\/WEB\/wordpress' 
+Search3:	'%2Fsrv%2Fsostenibl.es%2F' 
+Change3:	'%2FUsers%2Fmarcorighetto%2Fodrive%2FPersonalDrive%2FWEB%2Fwordpress%2F' 
+Search4:	'\srv\sostenibl.es' 
+Change4:	'/Users/marcorighetto/odrive/PersonalDrive/WEB/wordpress' 
+Search5:	'http://www.sostenibl.es' 
+Change5:	'http://localhost' 
+Search6:	'http:\/\/www.sostenibl.es' 
+Change6:	'http:\/\/localhost' 
+Search7:	'http%3A%2F%2Fwww.sostenibl.es' 
+Change7:	'http%3A%2F%2Flocalhost' 
+Search8:	'https://www.sostenibl.es' 
+Change8:	'https://localhost' 
+Search9:	'https:\/\/www.sostenibl.es' 
+Change9:	'https:\/\/localhost' 
+Search10:	'https%3A%2F%2Fwww.sostenibl.es' 
+Change10:	'https%3A%2F%2Flocalhost' 
+Search11:	'//www.sostenibl.es' 
+Change11:	'//localhost' 
+Search12:	'\/\/www.sostenibl.es' 
+Change12:	'\/\/localhost' 
+Search13:	'%2F%2Fwww.sostenibl.es' 
+Change13:	'%2F%2Flocalhost' 
+SCANNED:	Tables:14 	|	 Rows:710 	|	 Cells:5919 
+UPDATED:	Tables:1 	|	 Rows:150 	|	 Cells:157 
+ERRORS:		0 
+RUNTIME:	0.252500 sec
+
+====================================
+CONFIGURATION FILE UPDATES:
+====================================
+
+UPDATED WP-CONFIG: /wp-config.php' (if present)
+
+WEB SERVER CONFIGURATION FILE BASIC SETUP:
+- Preparing .htaccess file with basic setup.
+Basic .htaccess file edit complete.  If using IIS web.config this process will need to be done manually.
+
+====================================
+GENERAL UPDATES & CLEANUP:
+====================================
+
+- Created directory wp-snapshots
+- Created file wp-snapshots/index.php
+
+====================================
+NOTICES
+====================================
+
+No Notices Found
+
+
+STEP 3 COMPLETE @ 05:21:33 - RUNTIME: 0.2788 sec.
+
+
